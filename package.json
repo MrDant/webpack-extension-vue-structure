@@ -24,8 +24,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "autoprefixer": "^9.5.1",
     "lodash": "^4.17.15",
+    "postcss": "^6.0.19",
+    "postcss-loader": "^2.1.6",
     "save": "^2.4.0",
+    "tailwindcss": "^1.2.0",
     "vue": "^2.6.11"
   },
   "keywords": [],

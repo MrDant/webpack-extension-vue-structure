@@ -1,11 +1,50 @@
-@font-face {
-  font-family: "MyFont";
-  src: url("../font/font.ttf");
-  font-weight: 600;
-  font-style: normal;
+@import "tailwindcss/base";
+
+h1 {
+  @apply text-2xl;
+}
+h2 {
+  @apply text-xl;
+}
+h3 {
+  @apply text-lg;
+}
+a {
+  @apply text-blue-600;
+  @apply underline;
+}
+button {
+  @apply text-white font-bold py-2 px-4 rounded cursor-pointer my-2;
+}
+.icon {
+  @apply inline-block relative rounded-full p-3 icon text-3xl;
+}
+.card {
+  @apply max-w-sm rounded shadow-lg m-1;
+}
+.title {
+  @apply text-center text-xl pb-5;
+}
+.url {
+  @apply cursor-pointer text-blue-500 bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold mr-2;
+}
+.url:hover {
+  @apply text-blue-700;
+}
+input {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
+}
+input:focus {
+  @apply outline-none shadow-outline;
+}
+select {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
 }
 
-.hello {
-  color: red;
-  font-family: "MyFont";
+select:focus {
+  @apply outline-none shadow-outline;
 }
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
