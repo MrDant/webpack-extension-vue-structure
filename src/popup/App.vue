@@ -1,5 +1,5 @@
 <template>
-  <div>Options</div>
+  <div>Popup</div>
 </template>
 
 <script>
